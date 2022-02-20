@@ -30,8 +30,8 @@
 .butt{
     background-color: rgb(46, 45, 41);
     color: rgb(189, 190, 195);
-    font-family: sans-serif;
-    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
     height: 164px;
     aspect-ratio: 1/1;
     display: flex;
@@ -41,7 +41,7 @@
     border: 1px solid rgb(46, 45, 41);
     border-bottom: 5px solid rgb(32, 32, 32);
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 8px;
     cursor: pointer;
 }
 
@@ -54,9 +54,9 @@
     margin-left: 14px;
 }
 .icons{
-    margin-top: 18px;
+    margin-top: 16px;
     margin-left: 10px;
-    gap: 20px;
+    gap: 13px;
     background-color: rgb(49, 48, 44);
 }
 .icon{
@@ -64,10 +64,13 @@
     align-items: center;
     gap: 15px;
     background-color: rgb(49, 48, 44);
+    padding: 3px;
+    cursor: pointer;
 }
 .icon > img{
     width: 26px;
     height: auto;
+    opacity: 0.8;
 }
 .icon > div{
     color: rgb(189, 190, 195);
@@ -77,5 +80,50 @@
     background-color: transparent;
 }
 .icon:hover{
+    background-color: rgb(42, 41, 49);
+}
+.search{
+    margin: 12px;
+    margin-top: 14px;
+    margin-left: 10px;
+    width: 76%;
+    border-radius: 4px;
+    padding: 6.5px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(84, 83, 81);
+    border: none;
+    color: rgb(189, 190, 195);
+    font-weight: 600;
+}
+.search:focus{
+    outline: none;
+    border: 0.1px solid rgba(189, 190, 195, 0.233);
+}
+.options{
+    margin-left: 14px;
+    margin-top: 16px;
+    gap: 10px;
+    background-color: rgb(49, 48, 44);
+}
+.opt{
+    display: flex;
+    background-color: rgb(49, 48, 44);
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+.opt > img{
+    width: 20px;
+}
+.opt > div{
+    font-family: sans-serif;
+    font-size: 00.85rem;
+    font-weight: 700;
+    color: rgb(142, 131, 139);
+    background-color: transparent;
+}
+.opt:hover{
     background-color: rgb(42, 41, 49);
 }
