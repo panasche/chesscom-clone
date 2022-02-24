@@ -20,6 +20,7 @@
     height: 100vh;
     width: 345px;
     min-width: 345px;
+    margin-left: 12px;
 }
 
 .buttons{
@@ -30,7 +31,7 @@
 }
 
 .butt{
-    background-color: rgb(46, 45, 41);
+    background-color: rgba(46, 45, 41, 0.5);
     color: rgb(189, 190, 195);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
@@ -40,7 +41,7 @@
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 25px;
-    border: 1px solid rgb(46, 45, 41);
+    border: 1px solid rgba(46, 45, 41, 0.5);
     border-bottom: 5px solid rgb(32, 32, 32);
     border-radius: 5px;
     margin-top: 8px;
@@ -135,5 +136,98 @@
     gap: 24px;
 }
 #img{
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 6px 0px 0px 6px;
+}
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(46, 45, 41);
+    width: 490px;
+    border-radius: 0px 6px 6px 0px;
+    padding-top: 34px;
+}
+#h1{
+    color: rgb(252, 252, 249);
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 1.35rem;
+    margin-left: 35px;
+}
+ul{
+    color: rgb(182, 181, 187);
+    margin-top: 20px;
+    margin-left: 56px;
+    padding-left: 0px;
+}
+li{
+    background-color: rgb(46, 45, 41);
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0px 0px 5px 2px;
+}
+.text-button{
+    background-color: rgb(80, 79, 75);
+    color: rgb(200, 199, 197);
+    margin: -4px 0px 0px 38px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 15px 11px 15px;
+    cursor: pointer;
+}
+.text-button:hover{
+    background-color: rgb(95, 95, 93);
+    color: rgb(252, 252, 249);
+}
+#user{
+    height: auto;
+    width: 80px;
+    border-radius: 4px;
+}
+.profile{
+    background-color: rgb(46, 45, 41);
+    color: rgb(200, 199, 197);
+    padding: 18px;
+    padding-top: 12px;
+    border-radius: 4px;
+    margin-top: 8px;
+    width: 80%;
+}
+.profile-text{
+    margin-left: 18px;
+}
+.profile-options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: transparent;
+}
+.name{
+    background-color: transparent;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.897);
+}
+.subtxt{
+    background-color: rgb(46, 45, 41);
+    gap: 8px;
+    align-items: center;
+}
+.subtxt > img{
+    height: 18px;
+    width: 18px
+}
+.subtxt > div{
+    background-color: transparent;
+}
+.subtxt:hover{
+    color: rgb(252, 252, 249);
+}
+.curs{
+    cursor: pointer;
 }

@@ -3,7 +3,7 @@
     <head>
         <title>Chesscom replica</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="chess.css">
+        <link rel="stylesheet" href="styles/chess.css">
     </head>
     <body style="display: flex; flex-direction: row; justify-content: space-between;">
         <div class="l">
@@ -70,18 +70,51 @@
                 <button class="butt comp">vs Computer</button>
             </div>
             <div class="cards" style="display: flex; flex-direction: column;">
-                <div puzz>
+                <div class="puzz" style="display: flex;">
                     <img src="images/board1.jpg" id="img">
-                    <div></div>
+                    <div class="text">
+                        <div id="h1">Solve chess puzzles for fun and learning.</div>
+                        <ul>
+                            <li>Develop better pattern recognition</li>
+                            <li>Choose from different training modes</li>
+                            <li>Over 150,000 chess puzzles to solve</li>
+                        </ul>
+                        <button class="text-button">Solve Puzzles</button>
+                    </div>
                 </div>
-                <div less>
+                <div class="less" style="display: flex;">
                     <img src="images/board2.jpg" id="img">
-                    <div></div>
+                    <div class="text">
+                        <div id="h1">Take chess lessons that help you grow.</div>
+                        <ul>
+                            <li>Watch videos to learn concepts</li>
+                            <li>Complete challenges to pass lesssons</li>
+                            <li>Level up from novice to mastery</li>
+                        </ul>
+                        <button class="text-button">Start Lessons</button>
+                    </div>
                 </div>
             </div>
             <div></div>
             <div></div>
         </div>
-        <div class="r"></div>
+        <div class="r">
+            <div class="profile" style="display: flex">
+                <img src="images/userimage.svg" class="curs" id="user">
+                <div class="profile-text" style="background-color: rgb(46, 45, 41)">
+                    <div class="name curs">Butterscotch00</div>
+                    <div class="profile-options">
+                        <div class="subtxt curs" style="display: flex">
+                            <img src="images/user.png">
+                            <div> Profile</div>
+                        </div>
+                        <div class="subtxt curs" style="display: flex">
+                            <img src="images/home-settings.png">
+                            <div>Home Settings</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
