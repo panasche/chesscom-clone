@@ -11,10 +11,12 @@
     margin-left: -8px;
     position: sticky;
     top: 0px;
+    position: fixed;
 }
 .m{
     width: 770px;
     min-width: 770px;
+    margin-left: 145px;
 }
 .r{
     height: 100vh;
